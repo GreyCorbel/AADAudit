@@ -237,4 +237,17 @@ public enum AadErrorCode
     FaultDomainRedirect=9000000,
     UserAccountDeleted=9000001,
     DeviceNotCompliantDeviceManagementRequired=9000002,
+    InvalidTenantNameFormat = 9000003,
+	LoopDetected = 9000004,
+
+    //appear in UserLoginFailed operation
+    OnPremisePasswordValidationAuthenticationAgentTimeout=9100000,
+    InvalidGrantDeviceNotFound = 9100001,
+    InvalidSamlTokenNoTrustedRealmFromIdentifier=9100002,
+    UnauthorizedClientDoesNotMatchRequest=9100003,
+    UnsupportedResponseTypeImplicitFlowAccessTokenNotAllowed=9100004,
+    InvalidReplyToInvalidScheme=9100005,
+	OnPremisePasswordValidatorRequestTimeout=9100006,
+    InvalidResourceServicePrincipalNotFound = 9100007,
+    DeviceIsDisabled = 9100008,
 }
